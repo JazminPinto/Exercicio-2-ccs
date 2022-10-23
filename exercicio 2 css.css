@@ -39,6 +39,7 @@ nav {
     height: 32px;
     cursor: auto;
     text-align: justify;
+    flex-wrap: wrap;
 
 }
 
@@ -64,39 +65,27 @@ nav {
     flex-wrap: wrap;
 }
 
-.card-1,
-.card-2,
-.card-3,
-.card-4 {
+.card {
     height: 28rem;
-    width: 205px;
+    width: 15rem;
     border-radius: 1rem;
     background-color: #2FF1F1;
-    box-shadow: 5px 5px 15px 15px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px 10px rgb(0 0 0 / 10%);
     text-align: center;
-    padding: 4px 4px;
+    padding: 0px 2px;
     text-transform: inherit;
     margin: .3rem;
-
-
+}
+img{
+    border-radius: .5rem;
+    border-style: outset;
 }
 
-.card-1,
-.card-2,
-.card-3,
-.card-4:hover {
-    box-shadow: 0 0 1px 1px rgba(0 0 0 / 7%), 0 10px 15px 0 rgba(0 0 0 / 10%);
+.card:hover {
+    box-shadow: 0 0 1px 1px rgba(0 0 0 / 1%), 0 1px 10px 0 rgba(0 0 0 / 1%);
 }
 
 .articlegrande {
     position: relative;
     background-color: lightseagreen;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 80px 200px;
-}
-
-.imagrand {
-    border-radius: .5rem;
-    border-color: #000;
-    border-style: solid;
 }
