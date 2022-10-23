@@ -24,11 +24,12 @@ header {
 }
 
 .botao__primario {
-    display: block;
+    display: flex;
     background-color: #fff;
     color: #000;
     border-color: #32c04f;
     border-radius: 0.5rem;
+    text-decoration: solid;
 
 }
 
@@ -47,7 +48,8 @@ header {
     display: inline-flex;
     height: .5rem;
     flex-wrap: wrap;
-    align-items: ;
+    flex-direction: row;
+    text-align: right;
 }
 
 .botao__secundario {
@@ -56,6 +58,7 @@ header {
     color: #000;
     border-color: transparent;
     border-radius: 0.5rem;
+    
 
 }
 
@@ -100,16 +103,21 @@ img {
     background-color: lightseagreen;
     border-radius: .5rem;
     text-align: center;
-}
+    padding: .9rem;
 
+}
 .articulopequenos {
     border-style: double;
     border-radius: 1rem;
     margin: .3rem;
     position: inherit;
-    max-width: 15rem;
+    max-width: 18rem;
     max-height: auto;
     font-size: 10px;
+}
+.text{
+    font-size: .8rem;
+    
 }
 
 .articulogrande {
@@ -127,21 +135,33 @@ footer {
 
 .rodape,
 .link {
-    display: inline-flex;
+    display: inline-block;
     border-style: double;
     border-radius: .5rem;
+    padding: .5rem;
+    align-content: space-between;
+    text-align: left;
+
 }
 
 .rodape {
     max-width: 35rem;
+
 }
 
 .link {
-    max-width: auto;
+    max-width: 20rem;
+    padding-left: 0; 
 
 }
-
+.referencias{
+    list-style: none;
+}
+.titulo-link,
+.rodape-titulo{
+    text-align: center;
+}
 .contato {
-    display: flex;
+    display: flexbox;
 
 }
